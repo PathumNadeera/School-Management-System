@@ -119,54 +119,34 @@
 				</a>
 			</div>
 
-			<ul class="box-info">
-				<li>
-					<i class='bx bxs-user-rectangle'></i>
-					<span class="text">
-						<h3>2375</h3>
-						<p>Students</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bx-building-house'></i>
-					<span class="text">
-						<h3>54</h3>
-						<p>Class</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bxs-category'></i>
-					<span class="text">
-						<h3>212</h3>
-						<p>Teachers</p>
-					</span>
-				</li>
-			</ul>
-
 
 			<div class="table-data">
 				<div class="order">
 					<div class="head">
-						<h3>Recent Fee Payments</h3>
+						<h3>Student Details</h3>
 						<i class='bx bx-search' ></i>
 						<i class='bx bx-filter' ></i>
 					</div>
 					<table>
 						<thead>
 							<tr>
-								<th>Student</th>
-								<th>Date</th>
-                                <th>Payment</th>
+								<th>Name</th>
+								<th>SID</th>
+                                <th>DOB</th>
+                                <th>Grade</th>
+                                <th>Phone NO</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>
 									
-									<p>Kasun</p>
+									<p>Pathum</p>
 								</td>
-								<td>30-06-2023</td>
-                                <td>Rs.5000</td>
+								<td>52411</td>
+                                <td>2001.03.17</td>
+                                <td>11-C</td>
+                                <td>0711949466</td>
                                 
 							</tr>
 							<tr>
@@ -174,66 +154,113 @@
 									
 									<p>Amal</p>
 								</td>
-								<td>28-06-2023</td>
-                                <td>Rs.5000</td>
+								<td>52426</td>
+                                <td>2001.01.26</td>
+                                <td>10-D</td>
+                                <td>0711952697</td>
 							</tr>
 							<tr>
 								<td>
 									
 									<p>Harsha</p>
 								</td>
-								<td>01-06-2023</td>
-                                <td>Rs.3000</td>
+								<td>52454</td>
+                                <td>2001.08.10</td>
+                                <td>9-C</td>
+                                <td>0711624596</td>
 							</tr>
 							<tr>
 								<td>
 									
 									<p>Gayan</p>
 								</td>
-								<td>24-05-2023</td>
-                                <td>Rs.5000</td>
+								<td>52341</td>
+                                <td>2001.05.17</td>
+                                <td>11-E</td>
+                                <td>0711682466</td>
 							</tr>
 							<tr>
 								<td>
 									
 									<p>Perera</p>
 								</td>
-								<td>22-05-2023</td>
-                                <td>Rs.2500</td>
+								<td>52385</td>
+                                <td>2001.06.17</td>
+                                <td>12-C</td>
+                                <td>0711568466</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
+
+
+
+
+<!--REGISTRATION FORM -->      
+
 				<div class="todo">
-					<div class="head">
-						<h3>Projects</h3>
-						<i class='bx bx-plus' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<ul class="todo-list">
-						<li class="completed">
-							<p>construction of Tenis Cort</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>Renovate Lab</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>construction of pool</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>Project</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>project</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-					</ul>
-				</div>
-			</div>
+					
+						<h3>Student Registration</h3>
+					
+
+                    <style>
+                        input[type=text], select {
+                          width: 100%;
+                          padding: 12px 20px;
+                          margin: 8px 0;
+                          display: inline-block;
+                          border: 1px solid #ccc;
+                          border-radius: 4px;
+                          box-sizing: border-box;
+                        }
+                        
+                        input[type=submit] {
+                          width: 100%;
+                          background-color: #4CAF50;
+                          color: white;
+                          padding: 14px 20px;
+                          margin: 8px 0;
+                          border: none;
+                          border-radius: 4px;
+                          cursor: pointer;
+                        }
+                        
+                        input[type=submit]:hover {
+                          background-color: #45a049;
+                        }
+                        
+                        div {
+                          border-radius: 5px;
+                          background-color: #f2f2f2;
+                          padding: 20px;
+                        }
+                        </style>
+
+                        <body>
+                    
+                        
+                        <div>
+                          <form action="./registration.html">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Student name..">
+                        
+                            <label for="DOB">Date Of Birth</label>
+                            <input type="text" id="DOB" name="DOB" placeholder="Birthday..">
+                        
+                            <label for="grade">Grade</label>
+                            <input type="text" id="grade" name="grade" placeholder="Your last name..">
+
+                            <label for="Phone">Mobile-NO</label>
+                            <input type="text" id="Phone" name="Phone" placeholder="Your last name..">
+
+                            </select>
+                          
+                            <input type="submit" value="Submit">
+                          </form>
+                        </div>
+                        
+					
+			    </div>
 		</main>
 		<!-- MAIN -->
 	</section>
